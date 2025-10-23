@@ -1,0 +1,198 @@
+id,code,attributes,period,index1,index2,index3,index4
+3,100,New housing,2016 Q1,101.0,101.0,NA,NA
+4,101,one-room flats on new housing,2016 Q1,101.0,101.0,NA,NA
+5,102,two-room flats on new housing,2016 Q1,100.9,100.9,NA,NA
+6,103,three-room flats on new housing,2016 Q1,101.0,101.0,NA,NA
+7,200,Existing housing,2016 Q1,104.2,104.2,NA,NA
+8,201,one-room flats on existing housing,2016 Q1,107.4,107.4,NA,NA
+9,202,two-room flats on existing housing,2016 Q1,104.9,104.9,NA,NA
+10,203,three-room flats on existing housing,2016 Q1,100.9,100.9,NA,NA
+11,010,House price index,2016 Q2,NA,NA,NA,NA
+12,100,New housing,2016 Q2,96.9,97.9,NA,NA
+13,101,one-room flats on new housing,2016 Q2,95.8,96.8,NA,NA
+14,102,two-room flats on new housing,2016 Q2,98.0,98.9,NA,NA
+15,103,three-room flats on new housing,2016 Q2,96.9,97.9,NA,NA
+16,200,Existing housing,2016 Q2,95.4,99.4,NA,NA
+17,201,one-room flats on existing housing,2016 Q2,96.8,104.0,NA,NA
+18,202,two-room flats on existing housing,2016 Q2,91.3,95.8,NA,NA
+19,203,three-room flats on existing housing,2016 Q2,99.5,100.4,NA,NA
+20,010,House price index,2016 Q3,NA,NA,NA,NA
+21,100,New housing,2016 Q3,100.0,97.9,NA,NA
+22,101,one-room flats on new housing,2016 Q3,97.2,94.0,NA,NA
+23,102,two-room flats on new housing,2016 Q3,101.1,100.0,NA,NA
+24,103,three-room flats on new housing,2016 Q3,103.0,100.8,NA,NA
+25,200,Existing housing,2016 Q3,104.9,104.3,NA,NA
+26,201,one-room flats on existing housing,2016 Q3,104.7,108.8,NA,NA
+27,202,two-room flats on existing housing,2016 Q3,104.6,100.2,NA,NA
+28,203,three-room flats on existing housing,2016 Q3,105.4,105.8,NA,NA
+29,010,House price index,2016 Q4,NA,NA,NA,NA
+30,100,New housing,2016 Q4,104.3,102.1,NA,NA
+31,101,one-room flats on new housing,2016 Q4,106.0,99.7,NA,NA
+32,102,two-room flats on new housing,2016 Q4,105.2,105.2,NA,NA
+33,103,three-room flats on new housing,2016 Q4,99.5,100.3,NA,NA
+34,200,Existing housing,2016 Q4,99.2,103.4,NA,NA
+35,201,one-room flats on existing housing,2016 Q4,102.3,111.4,NA,NA
+36,202,two-room flats on existing housing,2016 Q4,100.0,100.2,NA,NA
+37,203,three-room flats on existing housing,2016 Q4,96.0,101.6,NA,NA
+38,010,House price index,2017 Q1,NA,NA,NA,NA
+39,100,New housing,2017 Q1,101.1,101.1,102.2,102.2
+40,101,one-room flats on new housing,2017 Q1,100.6,100.6,99.3,99.3
+41,102,two-room flats on new housing,2017 Q1,101.0,101.0,105.3,105.3
+42,103,three-room flats on new housing,2017 Q1,102.6,102.6,101.9,101.9
+43,200,Existing housing,2017 Q1,102.6,102.6,101.9,101.9
+44,201,one-room flats on existing housing,2017 Q1,104.2,104.2,108.0,108.0
+45,202,two-room flats on existing housing,2017 Q1,102.0,102.0,97.4,97.4
+46,203,three-room flats on existing housing,2017 Q1,102.1,102.1,102.8,102.8
+47,010,House price index,2017 Q2,NA,NA,NA,NA
+48,100,New housing,2017 Q2,100.6 ,101.7,106.1,104.1
+49,101,one-room flats on new housing,2017 Q2,100.8 ,101.4,104.5,101.8
+50,102,two-room flats on new housing,2017 Q2,100.6 ,101.6,108.1,106.6
+51,103,three-room flats on new housing,2017 Q2,100.0 ,102.6,105.1,103.5
+52,200,Existing housing,2017 Q2,100.4,103.0,107.2,104.5
+53,201,one-room flats on existing housing,2017 Q2,101.0,105.2,112.7,110.3
+54,202,two-room flats on existing housing,2017 Q2,100.0,102.0,106.7,101.8
+55,203,three-room flats on existing housing,2017 Q2,100.3,102.4,103.6,103.2
+56,010,House price index,2017 Q3,NA,NA,NA,NA
+57,100,New housing,2017 Q3,100.3,102.0,106.4,104.8
+58,101,one-room flats on new housing,2017 Q3,100.3,101.7,107.8,103.8
+59,102,two-room flats on new housing,2017 Q3,100.4,102.0,107.3,106.9
+60,103,three-room flats on new housing,2017 Q3,100.2,102.8,102.3,103.1
+61,200,Existing housing,2017 Q3,100.6,103.6,102.8,103.9
+62,201,one-room flats on existing housing,2017 Q3,101.1,106.4,108.8,109.8
+63,202,two-room flats on existing housing,2017 Q3,100.3,102.3,102.3,102.0
+64,203,three-room flats on existing housing,2017 Q3,100.5,102.9,98.8,101.7
+65,010,House price index,2017 Q4,NA,NA,NA,NA
+66,100,New housing,2017 Q4,102.3 ,104.4,104.4,104.7
+67,101,one-room flats on new housing,2017 Q4,104.2 ,106.0,106.0,104.3
+68,102,two-room flats on new housing,2017 Q4,101.4 ,103.4,103.4,106.0
+169,200,Existing housing,2020 Q3,102.4,107.7,110.6,109.9
+69,103,three-room flats on new housing,2017 Q4,100.3 ,103.1,103.1,103.1
+70,200,Existing housing,2017 Q4,102.5,106.2,106.2,104.5
+71,201,one-room flats on existing housing,2017 Q4,102.6,109.2,109.2,109.7
+72,202,two-room flats on existing housing,2017 Q4,103.7,106.1,106.1,103.0
+73,203,three-room flats on existing housing,2017 Q4,100.9,103.8,103.8,102.2
+74,010,House price index,2018 Q1,NA,NA,NA,NA
+75,100,New housing,2018 Q1,102.0,102.0,105.3,105.3
+76,101,one-room flats on new housing,2018 Q1,101.8,101.8,107.2,107.2
+77,102,two-room flats on new housing,2018 Q1,102.2,102.2,104.7,104.7
+78,103,three-room flats on new housing,2018 Q1,101.6,101.6,102.1,102.1
+79,200,Existing housing,2018 Q1,100.7,100.7,104.3,104.3
+80,201,one-room flats on existing housing,2018 Q1,101.1,101.1,105.9,105.9
+81,202,two-room flats on existing housing,2018 Q1,100.6,100.6,104.6,104.6
+82,203,three-room flats on existing housing,2018 Q1,100.3,100.3,102.0,102.0
+83,010,House price index,2018 Q2,NA,NA,NA,NA
+84,100,New housing,2018 Q2,100.9,102.9,105.6,105.4
+85,101,one-room flats on new housing,2018 Q2,100.3,102.1,106.7,107.0
+86,102,two-room flats on new housing,2018 Q2,101.1,103.3,105.2,104.9
+87,103,three-room flats on new housing,2018 Q2,102.1,103.7,104.3,103.2
+88,200,Existing housing,2018 Q2,98.9,99.6,102.7,103.5
+89,201,one-room flats on existing housing,2018 Q2,100.3,101.4,105.2,105.6
+90,202,two-room flats on existing housing,2018 Q2,98.1,98.7,102.6,103.6
+91,203,three-room flats on existing housing,2018 Q2,98.7,99.0,100.4,101.2
+92,010,House price index,2018 Q3,NA,NA,NA,NA
+93,100,New housing,2018 Q3,100.4 ,103.3,105.7,105.5
+94,101,one-room flats on new housing,2018 Q3,100.3 ,102.4,106.7,106.9
+95,102,two-room flats on new housing,2018 Q3,100.5 ,103.8,105.3,105.1
+96,103,three-room flats on new housing,2018 Q3,100.6 ,104.4,104.7,103.7
+97,200,Existing housing,2018 Q3,102.8 ,102.4,104.9,104.0
+98,201,one-room flats on existing housing,2018 Q3,100.8 ,102.2,104.9,105.3
+99,202,two-room flats on existing housing,2018 Q3,104.1 ,102.7,106.5,104.6
+100,203,three-room flats on existing housing,2018 Q3,103.0 ,102.0,102.9,101.8
+101,010,House price index,2018 Q4,NA,NA,NA,NA
+102,100,New housing,2018 Q4,101.7,105.1,105.1,105.4
+103,101,one-room flats on new housing,2018 Q4,101.3,103.7,103.7,106.1
+104,102,two-room flats on new housing,2018 Q4,101.1,105.0,105.0,105.1
+105,103,three-room flats on new housing,2018 Q4,103.6,108.1,108.1,104.8
+106,200,Existing housing,2018 Q4,105.5,108.0,108.0,105.0
+107,201,one-room flats on existing housing,2018 Q4,104.6,106.9,106.9,105.7
+108,202,two-room flats on existing housing,2018 Q4,105.9,108.8,108.8,105.7
+109,203,three-room flats on existing housing,2018 Q4,106.0 ,108.1,108.1,103.4
+110,010,House price index,2019 Q1,102.6,102.6,NA,NA
+111,100,New housing,2019 Q1,102.3,102.3,105.4,105.4
+112,101,one-room flats on new housing,2019 Q1,102.3,102.3,104.3,104.3
+113,102,two-room flats on new housing,2019 Q1,102.0,102.0,104.8,104.8
+114,103,three-room flats on new housing,2019 Q1,103.0,103.0,109.6,109.6
+115,200,Existing housing,2019 Q1,102.8,102.8,110.3,110.3
+116,201,one-room flats on existing housing,2019 Q1,101.8,101.8,107.7,107.7
+117,202,two-room flats on existing housing,2019 Q1,103.5,103.5,111.9,111.9
+118,203,three-room flats on existing housing,2019 Q1,102.8,102.8,110.8,110.8
+119,010,House price index,2019 Q2,101.9,104.5,NA,NA
+120,100,New housing,2019 Q2,102.0,104.3,106.5,106.0
+121,101,one-room flats on new housing,2019 Q2,100.8,103.1,104.8,104.5
+122,102,two-room flats on new housing,2019 Q2,102.9,105.0,106.6,105.7
+123,103,three-room flats on new housing,2019 Q2,103.3,106.4,110.9,110.3
+124,200,Existing housing,2019 Q2,101.8,104.7,113.5,111.9
+125,201,one-room flats on existing housing,2019 Q2,103.3,105.2,110.9,109.3
+126,202,two-room flats on existing housing,2019 Q2,100.7,104.2,114.9,113.4
+127,203,three-room flats on existing housing,2019 Q2,101.9,104.8,114.4,112.6
+128,010,House price index,2019 Q3,101.0,105.6,NA,NA
+129,100,New housing,2019 Q3,100.3,104.7,106.4,106.1
+130,101,one-room flats on new housing,2019 Q3,100.5,103.6,105.0,104.7
+131,102,two-room flats on new housing,2019 Q3,100.2,105.2,106.3,105.9
+132,103,three-room flats on new housing,2019 Q3,100.0,106.4,110.2,110.2
+133,200,Existing housing,2019 Q3,101.3,106.0,111.8,111.9
+134,201,one-room flats on existing housing,2019 Q3,101.7,106.9,111.9,110.1
+135,202,two-room flats on existing housing,2019 Q3,101.8,106.1,112.4,113.1
+136,203,three-room flats on existing housing,2019 Q3,100.4,105.2,111.5,112.2
+137,010,House price index,2019 Q4,102.8,108.6,NA,NA
+138,100,New housing,2019 Q4,103.1,107.9,107.9,106.6
+139,101,one-room flats on new housing,2019 Q4,103.6,107.4,107.4,105.4
+140,102,two-room flats on new housing,2019 Q4,102.8,108.1,108.1,106.5
+141,103,three-room flats on new housing,2019 Q4,102.5,109.1,109.1,109.9
+142,200,Existing housing,2019 Q4,102.7,108.9,108.9,111.1
+143,201,one-room flats on existing housing,2019 Q4,103.9,111.1,111.1,110.4
+144,202,two-room flats on existing housing,2019 Q4,103.5,109.8,109.8,112.2
+145,203,three-room flats on existing housing,2019 Q4,100.7,105.9,105.9,110.5
+146,010,House price index,2020 Q1,102.8,102.8,108.8,108.8
+147,100,New housing,2020 Q1,101.4,101.4,107.0,107.0
+148,101,one-room flats on new housing,2020 Q1,101.7,101.7,106.7,106.7
+149,102,two-room flats on new housing,2020 Q1,100.4,100.4,106.4,106.4
+150,103,three-room flats on new housing,2020 Q1,103.1,103.1,109.2,109.2
+151,200,Existing housing,2020 Q1,103.6,103.6,109.7,109.7
+152,201,one-room flats on existing housing,2020 Q1,103.9,103.9,113.4,113.4
+153,202,two-room flats on existing housing,2020 Q1,103.4,103.4,109.7,109.7
+154,203,three-room flats on existing housing,2020 Q1,103.6,103.6,106.7,106.7
+155,010,House price index,2020 Q2,101.6,104.5,108.4,108.6
+156,100,New housing,2020 Q2,101.8,103.2,106.7,106.9
+157,101,one-room flats on new housing,2020 Q2,102.1,103.8,108.1,107.4
+158,102,two-room flats on new housing,2020 Q2,102.1,102.5,105.6,106.0
+159,103,three-room flats on new housing,2020 Q2,100.3,103.4,106.0,107.6
+160,200,Existing housing,2020 Q2,101.5,105.2,109.4,109.5
+161,201,one-room flats on existing housing,2020 Q2,102.5,106.5,112.5,112.9
+162,202,two-room flats on existing housing,2020 Q2,100.8,104.2,109.8,109.8
+163,203,three-room flats on existing housing,2020 Q2,101.4,105.1,106.2,106.4
+164,010,House price index,2020 Q3,102.0,106.5,109.5,108.9
+165,100,New housing,2020 Q3,101.2,104.5,107.7,107.1
+166,101,one-room flats on new housing,2020 Q3,101.6,105.5,109.3,108.1
+167,102,two-room flats on new housing,2020 Q3,100.5,103.0,105.9,105.9
+168,103,three-room flats on new housing,2020 Q3,102.0,105.5,108.1,107.7
+170,201,one-room flats on existing housing,2020 Q3,101.1,107.7,111.9,112.6
+171,202,two-room flats on existing housing,2020 Q3,103.1,107.5,111.2,110.3
+172,203,three-room flats on existing housing,2020 Q3,102.6,107.8,108.5,107.1
+173,010,House price index,2020 Q4,101.8,108.4,108.4,108.8
+174,100,New housing,2020 Q4,101.6,106.1,106.1,106.9
+175,101,one-room flats on new housing,2020 Q4,101.6,107.2,107.2,107.8
+176,102,two-room flats on new housing,2020 Q4,101.4,104.5,104.5,105.6
+177,103,three-room flats on new housing,2020 Q4,102.1,107.7,107.7,107.7
+178,200,Existing housing,2020 Q4,101.9,109.7,109.7,109.8
+179,201,one-room flats on existing housing,2020 Q4,102.0,109.8,109.8,111.9
+180,202,two-room flats on existing housing,2020 Q4,102.4,110.0,110.0,110.2
+181,203,three-room flats on existing housing,2020 Q4,101.5,109.4,109.4,107.7
+182,010,House price index,2021 Q1,105.6,105.6,111.4,111.4
+183,100,New housing,2021 Q1,104.9,104.9,109.8,109.8
+184,101,one-room flats on new housing,2021 Q1,105.1,105.1,110.8,110.8
+185,102,two-room flats on new housing,2021 Q1,103.7,103.7,107.9,107.9
+186,103,three-room flats on new housing,2021 Q1,106.9,106.9,111.7,111.7
+187,200,Existing housing,2021 Q1,106.1,106.1,112.4,112.4
+188,201,one-room flats on existing housing,2021 Q1,106.2,106.2,112.3,112.3
+189,202,two-room flats on existing housing,2021 Q1,106.3,106.3,113.1,113.1
+190,203,three-room flats on existing housing,2021 Q1,105.9,105.9,111.8,111.8
+191,010,House price index,2021 Q2,104.0,109.8,114.0,112.7
+192,100,New housing,2021 Q2,104.6,109.7,112.8,111.3
+193,101,one-room flats on new housing,2021 Q2,104.0,109.3,112.8,111.8
+194,102,two-room flats on new housing,2021 Q2,105.2,109.1,111.2,109.6
+195,103,three-room flats on new housing,2021 Q2,104.4,111.6,116.2,114.0
+196,200,Existing housing,2021 Q2,103.6,109.9,114.7,113.5
+197,201,one-room flats on existing housing,2021 Q2,103.0,109.4,112.8,112.5
+198,202,two-room flats on existing housing,2021 Q2,103.8,110.3,116.5,114.8
+199,203,three-room flats on existing housing,2021 Q2,103.9,110.0,114.6,113.2
