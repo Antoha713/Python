@@ -20,7 +20,10 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
 from firstapp.views import *
 
 urlpatterns = [
-    path('', popular_singers, name='home'),]
+    path('', popular_singers, name='home'),
+    path('singer/', singer_card),]
+
