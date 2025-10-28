@@ -44,3 +44,23 @@ def singer_card(request):
     </html>
     """
     return HttpResponse(html_content, content_type='text/html; charset=utf-8')
+
+def popular_singers(request):
+    html_content = """
+    <html>
+    <body>
+        <h1>Популярні співаки України</h1>
+        <ul>
+    """
+    for singer in list_singers():
+        singer_url = f"/singer/?id={singer['id']}"
+        html_content += f"<li><a href='{singer_url}'><strong>{singer['name']}</strong></a>" \
+                        	        f" - {singer['genre']} (Вокаліст: {singer['lead_singer']})</li>"
+
+    html_content += """
+        </ul>
+    </body>
+    </html>
+    """
+    return HttpResponse(html_content, content_type='text/html; charset=utf-8')
+
