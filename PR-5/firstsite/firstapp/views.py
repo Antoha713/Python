@@ -5,8 +5,8 @@ from django.http import HttpResponse
 def list_singers():
     singers = [
         {'id': 1, 'name': 'Океан Ельзи', 'genre': 'Рок', 'lead_singer': 'Святослав Вакарчук', 'slug': 'okean-elzy'},
-        {'id': 2, 'name': 'Бумбокс', 'genre': 'Рок, Хіп-хоп', 'lead_singer': 'Андрій Хливнюк', 'slug': 'bumboks'}
-        #Додайте решту для прикладу
+        {'id': 2, 'name': 'Бумбокс', 'genre': 'Рок, Хіп-хоп', 'lead_singer': 'Андрій Хливнюк', 'slug': 'bumboks'},
+        {'id': 3, 'name': 'DZIDZIO', 'genre': 'Поп', 'lead_singer': 'Михайло Хома', 'slug': 'dzidzio'}
     ]
     return singers
 
