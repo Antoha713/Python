@@ -14,7 +14,6 @@ def home(request):
         <h1>Головна сторінка</h1>
         <table border='1' cellpadding='5'>
             <tr><th><a href='/news/'>Новини</a></th></tr>
-            <tr><td>Світ блогерів зростає!</td></tr>
         </table>
         <br><a href='/profiles/'>Перейти до профілів</a>
     """
