@@ -1,3 +1,66 @@
 from django.shortcuts import render
 
-# Create your views here.
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
+from django.urls import reverse
+from .data import BloggersData
+
+
+def wrap(content):
+    return HttpResponse(f"<html><body>{content}</body></html>")
+
+
+def home(request):
+    html = """
+        <h1>Головна сторінка</h1>
+        <table border='1' cellpadding='5'>
+            <tr><th>Новина</th></tr>
+            <tr><td>Світ блогерів зростає!</td></tr>
+        </table>
+        <br><a href='/profiles/'>Перейти до профілів</a>
+    """
+    return wrap(html)
+
+
+def profiles(request):
+    rows = "".join([
+        f"<tr><td><a href='/profiles/{id}/'>{data['name']}</a></td>"
+        f"<td>{data['category']}</td><td>{data['description']}</td></tr>"
+        for id, data in BloggersData.bloggers.items()
+    ])
+
+    html = f"""
+        <h1>Профілі блогерів</h1>
+        <table border='1' cellpadding='5'>
+            <tr><th>Ім'я</th><th>Категорія</th><th>Опис</th></tr>
+            {rows}
+        </table>
+        <br><a href='/'>На головну</a>
+    """
+    return wrap(html)
+
+
+def profile_details(request, blogger_id):
+    blogger_id = int(blogger_id)
+    data = BloggersData.bloggers.get(blogger_id)
+
+    if not data:
+        return HttpResponseNotFound("<h1>404 — Блогера не знайдено</h1>")
+
+    posts = "".join([f"<li>{p}</li>" for p in data['posts']])
+
+    html = f"""
+        <h1>Профіль: {data['name']}</h1>
+        <table border='1' cellpadding='5'>
+            <tr><td>Категорія</td><td>{data['category']}</td></tr>
+            <tr><td>Опис</td><td>{data['description']}</td></tr>
+            <tr><td>Соцмережа</td><td><a href='{data['social']}'>Перейти</a></td></tr>
+        </table>
+        <h3>Останні публікації:</h3>
+        <ul>{posts}</ul>
+        <br><a href='/profiles/'>Назад до списку</a>
+    """
+    return wrap(html)
+
+
+def redirect_to_home(request):
+    return HttpResponseRedirect(reverse('home'))
