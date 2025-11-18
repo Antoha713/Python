@@ -13,7 +13,7 @@ def home(request):
     html = """
         <h1>Головна сторінка</h1>
         <table border='1' cellpadding='5'>
-            <tr><th>Новина</th></tr>
+            <tr><th><a href='/news/'>Новини</a></th></tr>
             <tr><td>Світ блогерів зростає!</td></tr>
         </table>
         <br><a href='/profiles/'>Перейти до профілів</a>
@@ -61,7 +61,7 @@ def profile_details(request, blogger_id):
     """
     return wrap(html)
 
-def news_page(request):
+def news(request):
     html = """
         <h1>Останні новини зі світу блогерів</h1>
         <table border='1' cellpadding='5'>
@@ -73,6 +73,7 @@ def news_page(request):
         <br><a href='/'>На головну</a>
     """
     return HttpResponse(html)
+
 
 
 def redirect_to_home(request):
