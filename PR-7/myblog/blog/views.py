@@ -7,6 +7,27 @@ from .models import Post, Comment
 from .forms import CommentForm
 from django.views.decorators.http import require_POST
 
+
+def post_detail(request, year, month, day, post):
+    post = get_object_or_404(Post,
+                             status=Post.Status.PUBLISHED,
+                             slug=post,
+                             publish__year=year,
+                             publish__month=month,
+                             publish__day=day)
+
+    # Список активних коментарів до цього посту
+    comments = post.comments.filter(active=True)
+
+    # Форма для коментування користувачами
+    form = CommentForm()
+
+    return render(request, 'blog/post/detail.html',
+                  {'post': post,
+                   'comments': comments,
+                   'form': form})
+
+
 @require_POST
 def post_comment(request, post_id):
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
