@@ -17,6 +17,32 @@ def install(request):
         {"CAR_NAME": "X5", "CAR_MODEL": "2023", "CAR_PRICE": 60000, "CAR_BRAND": "BMW"},
     ]
 
+    for b in brands:
+        obj, created = cars_brand.objects.get_or_create(
+            BRAND_NAME=b["BRAND_NAME"],
+            defaults={
+                "BRAND_COUNTRY": b["BRAND_COUNTRY"],
+                "BRAND_RATING": b["BRAND_RATING"]
+            }
+        )
+        if created:
+            output.append(f"Бренд додано: {b['BRAND_NAME']}")
+        else:
+            output.append(f"Бренд пропущено (вже існує): {b['BRAND_NAME']}")
 
+    for c in cars:
+        brand = cars_brand.objects.get(BRAND_NAME=c["CAR_BRAND"])
+        obj, created = cars_info.objects.get_or_create(
+            CAR_NAME=c["CAR_NAME"],
+            CAR_MODEL=c["CAR_MODEL"],
+            defaults={
+                "CAR_PRICE": c["CAR_PRICE"],
+                "CAR_BRAND": brand
+            }
+        )
+        if created:
+            output.append(f"Авто додано: {c['CAR_NAME']}")
+        else:
+            output.append(f"Авто пропущено (вже існує): {c['CAR_NAME']}")
 
     return HttpResponse("<br>".join(output))
