@@ -1,6 +1,11 @@
 from django.http import HttpResponse
 from .models import cars_brand, cars_info
 
+from django.shortcuts import render
+
+def show_cars(request):
+    all_cars = cars_info.objects.all()
+    return render(request, "cars.html", {"cars": all_cars})
 
 def install(request):
     output = []
