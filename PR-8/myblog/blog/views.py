@@ -5,6 +5,7 @@ from django.views.generic import ListView
 from django.views.decorators.http import require_POST
 from .forms import CommentForm
 from taggit.models import Tag
+from django.db.models import Count
 
 @require_POST
 def post_comment(request, post_id):
@@ -83,7 +84,14 @@ def post_detail(request, year, month, day, post):
     comments = post.comments.filter(active=True)
     form = CommentForm()
 
+    post_tags_ids = post.tags.values_list('id', flat=True)
+    similar_posts = Post.published.filter(tags__in=post_tags_ids) \
+                    .exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count('tags')) \
+                    .order_by('-same_tags', '-publish')[:4]
+
     return render(request, 'blog/post/detail.html',
                   {'post': post,
                    'comments': comments,
-                   'form': form})
+                   'form': form,
+                   'similar_posts': similar_posts})
