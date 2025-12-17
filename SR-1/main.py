@@ -46,3 +46,14 @@ t = 1
 Z = (9 * math.pi * t + 10 * math.cos(x)) / (math.sqrt(t) - abs(math.sin(t))) * math.exp(x)
 
 print("Z =", round(Z, 2))
+
+#3
+x = float(input("Введіть x: "))
+
+if x >= 0:
+    f = 0.5 - abs(x) ** 0.25
+else:
+    f = (math.sin(x ** 2) ** 2) / abs(x + 1)
+
+print("f(x) =", round(f, 2))
+
