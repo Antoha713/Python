@@ -44,6 +44,31 @@ def remove_book(books_dict):
         print("Книга не знайдена в базі даних.")
     return books_dict
 
+def list_books(books_dict):
+    if books_dict:
+        print("Список всіх книг та їх авторів:")
+        for book, author in books_dict.items():
+            print(f"'{book}' автора {author}")
+    else:
+        print("База даних книг порожня.")
+
+def main():
+    books = {}
+    while True:
+        action = input("Виберіть дію: додати (a), видалити (r), переглянути (l), знайти автора (f), завершити (q): ")
+        if action.lower() == 'a':
+            books = add_book(books)
+        elif action.lower() == 'r':
+            books = remove_book(books)
+        elif action.lower() == 'l':
+            list_books(books)
+        elif action.lower() == 'f':
+            find_book_author(books)
+        elif action.lower() == 'q':
+            print("Програма завершена.")
+            break
+        else:
+            print("Невідома команда, спробуйте ще раз.")
 
 
 main()
