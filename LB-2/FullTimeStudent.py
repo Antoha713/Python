@@ -15,3 +15,9 @@ class FullTimeStudent(Person):
         else:
             avg_prac = 0
         return avg_prac
+
+    def total_score(self):
+        S_pr = self.avg_practice_score()
+        S_ex = self.exam_scr
+        S_att = self.attend_pct
+        return 0.6 * S_pr + 0.3 * S_ex + 0.1 * S_att
