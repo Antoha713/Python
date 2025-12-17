@@ -22,3 +22,17 @@ def add_book(books_dict):
         except ValueError:
             print("Некоректний ввід, спробуйте ще раз.")
     return books_dict
+
+def find_book_author(books_dict):
+    book_to_find = input("Назву книги для пошуку автор: ")
+    if book_to_find in books_dict:
+        print(f"Автор книги '{book_to_find}': {books_dict[book_to_find]}")
+    else:
+        print("Книга не знайдена в базі даних.")
+
+def main():
+    books = {}
+    books = add_book(books)
+    find_book_author(books)
+
+main()
