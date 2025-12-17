@@ -49,3 +49,8 @@ class Manager(Employee):
 
     def set_subordinates(self, count):
         self._subordinates = count
+
+    def calculate_bonus(self):
+        base_bonus = super().calculate_bonus()
+        return base_bonus + (self._subordinates * Manager.bonus_per_worker)
+
