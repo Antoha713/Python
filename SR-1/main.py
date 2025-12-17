@@ -57,3 +57,16 @@ else:
 
 print("f(x) =", round(f, 2))
 
+#4
+a = int(input("Введіть перше ціле число: "))
+b = int(input("Введіть друге ціле число: "))
+c = int(input("Введіть третє ціле число: "))
+N = int(input("Введіть N: "))
+
+numbers = [a, b, c]
+
+print("Числа, що належать інтервалу [1, N]:")
+for num in numbers:
+    if 1 <= num <= N:
+        print(num)
+
