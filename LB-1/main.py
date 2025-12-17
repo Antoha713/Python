@@ -6,3 +6,5 @@ if n % 2 == 1:
     median = numbers_list[n // 2]
 else:
     median = (numbers_list[n // 2 - 1] + numbers_list[n // 2]) / 2
+
+print(f"Медіана: {median}")
