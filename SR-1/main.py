@@ -1,3 +1,5 @@
+import math
+
 # 1
 pib = input("Ваші прізвище, ім'я, по батькові? ")
 age = int(input("Скільки Вам років? "))
@@ -38,3 +40,9 @@ for i in range(len(questions)):
 
 
 #2
+x = int(input("Введіть x: "))
+t = 1
+
+Z = (9 * math.pi * t + 10 * math.cos(x)) / (math.sqrt(t) - abs(math.sin(t))) * math.exp(x)
+
+print("Z =", round(Z, 2))
