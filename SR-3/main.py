@@ -29,3 +29,9 @@ class Employee:
 
     def set_bonus_percent(self, percent):
         self._bonus_percent = percent
+
+    def calculate_month_salary(self):
+        return (self._salary / 30) * self._worked_days
+
+    def calculate_bonus(self):
+        return (self.calculate_month_salary() / 100) * self._bonus_percent
