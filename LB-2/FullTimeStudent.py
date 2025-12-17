@@ -21,3 +21,7 @@ class FullTimeStudent(Person):
         S_ex = self.exam_scr
         S_att = self.attend_pct
         return 0.6 * S_pr + 0.3 * S_ex + 0.1 * S_att
+
+    def display_info(self):
+
+        print("Форма навчання: очна")

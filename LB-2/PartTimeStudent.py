@@ -19,3 +19,7 @@ class PartTimeStudent(Person):
         S_pr = self.avg_practice_score()
         S_ex = self.exam_scr
         return 0.7 * S_pr + 0.3 * S_ex
+
+    def display_info(self):
+
+        print("Форма навчання: заочна")
