@@ -35,3 +35,11 @@ class Employee:
 
     def calculate_bonus(self):
         return (self.calculate_month_salary() / 100) * self._bonus_percent
+
+
+class Manager(Employee):
+    bonus_per_worker = 100
+
+    def __init__(self, name, salary, worked_days, bonus_percent, subordinates):
+        super().__init__(name, salary, worked_days, bonus_percent)
+        self._subordinates = subordinates
