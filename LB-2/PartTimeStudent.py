@@ -14,3 +14,8 @@ class PartTimeStudent(Person):
         else:
             avg_prac = 0
         return avg_prac
+
+    def total_score(self):
+        S_pr = self.avg_practice_score()
+        S_ex = self.exam_scr
+        return 0.7 * S_pr + 0.3 * S_ex
