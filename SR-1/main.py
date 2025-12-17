@@ -25,3 +25,16 @@ for q in questions:
     ans = input(q + " ")
     answers.append(ans)
 
+print("\n РЕЗУЛЬТАТ ")
+print("Ваше ім'я:", pib)
+print("Ваш вік:", age)
+print("Ви живете в:", city)
+print("Ви навчаєтесь в:", study_place)
+print("Номер моєї групи -", group)
+print("Мій порядковий номер у списку групи -", number)
+
+for i in range(len(questions)):
+    print(f"{questions[i]} {answers[i]}")
+
+
+#2
