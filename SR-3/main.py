@@ -69,3 +69,12 @@ employees.append(emp1)
 employees.append(emp2)
 employees.append(mgr1)
 employees.append(mgr2)
+
+print("\n РОЗРАХУНОК ЗАРПЛАТИ ТА БОНУСІВ ")
+for emp in employees:
+    print(f"\nІм'я: {emp.get_name()}")
+    print("Зарплата за місяць:", round(emp.calculate_month_salary(), 2))
+    print("Бонус:", round(emp.calculate_bonus(), 2))
+
+    if isinstance(emp, Manager):
+        print(emp.generate_report())
