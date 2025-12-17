@@ -54,3 +54,18 @@ class Manager(Employee):
         base_bonus = super().calculate_bonus()
         return base_bonus + (self._subordinates * Manager.bonus_per_worker)
 
+    def generate_report(self):
+        return f"Менеджер {self._name} керує {self._subordinates} співробітниками."
+
+employees = []
+
+emp1 = Employee("Іван", 30000, 22, 10)
+emp2 = Employee("Олена", 28000, 20, 5)
+
+mgr1 = Manager("Андрій", 40000, 24, 15, 5)
+mgr2 = Manager("Марія", 45000, 26, 20, 8)
+
+employees.append(emp1)
+employees.append(emp2)
+employees.append(mgr1)
+employees.append(mgr2)
