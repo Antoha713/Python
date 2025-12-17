@@ -8,3 +8,10 @@ class FullTimeStudent(Person):
         self.prac_count = prac_count       # кількість_практичних
         self.exam_scr = exam_scr           # бал_за_іспит
         self.attend_pct = attend_pct     # процент_відвідування
+
+    def avg_practice_score(self):
+        if self.prac_count != 0:
+            avg_prac = self.prac_score / self.prac_count
+        else:
+            avg_prac = 0
+        return avg_prac
