@@ -35,4 +35,17 @@ def main():
     books = add_book(books)
     find_book_author(books)
 
+def remove_book(books_dict):
+    book_to_remove = input("Введіть назву книги для видалення: ")
+    if book_to_remove in books_dict:
+        del books_dict[book_to_remove]
+        print(f"Книга '{book_to_remove}' успішно видалена.")
+    else:
+        print("Книга не знайдена в базі даних.")
+    return books_dict
+
+
+
 main()
+
+
