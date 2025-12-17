@@ -39,7 +39,7 @@ for i in range(len(questions)):
     print(f"{questions[i]} {answers[i]}")
 
 
-#2
+# 2
 x = int(input("Введіть x: "))
 t = 1
 
@@ -47,7 +47,7 @@ Z = (9 * math.pi * t + 10 * math.cos(x)) / (math.sqrt(t) - abs(math.sin(t))) * m
 
 print("Z =", round(Z, 2))
 
-#3
+# 3
 x = float(input("Введіть x: "))
 
 if x >= 0:
@@ -57,7 +57,7 @@ else:
 
 print("f(x) =", round(f, 2))
 
-#4
+# 4
 a = int(input("Введіть перше ціле число: "))
 b = int(input("Введіть друге ціле число: "))
 c = int(input("Введіть третє ціле число: "))
@@ -71,7 +71,7 @@ for num in numbers:
         print(num)
 
 
-#5
+# 5
 a = float(input("Введіть перше число: "))
 b = float(input("Введіть друге число: "))
 c = float(input("Введіть третє число: "))
