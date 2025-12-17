@@ -8,4 +8,14 @@ def print_employees(names, index=0):
     print_employees(names, index + 1)
 
 
+employees = input_employees()
 
+salaries = calculate_all_salaries(employees)
+
+print("\n НАРАХОВАНА ЗАРПЛАТА ")
+for name in salaries:
+    print(name, ":", salaries[name])
+
+print("\n СПИСОК СПІВРОБІТНИКІВ (рекурсія) ")
+names_matrix = list(employees.keys())
+print_employees(names_matrix)
