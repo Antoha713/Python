@@ -46,3 +46,6 @@ class Manager(Employee):
 
     def get_subordinates(self):
         return self._subordinates
+
+    def set_subordinates(self, count):
+        self._subordinates = count
