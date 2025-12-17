@@ -21,3 +21,8 @@ while True:
         books[book.strip()] = author.strip()  # Видаляємо зайві пробіли та зберігаємо дані
     except ValueError:
         print("Некоректний ввід, спробуйте ще раз.")
+book_to_find = input("Введіть назву книги для пошуку її автора: ")
+if book_to_find in books:
+    print(f"Автор книги '{book_to_find}': {books[book_to_find]}")
+else:
+    print("Книга не знайдена в базі даних.")
