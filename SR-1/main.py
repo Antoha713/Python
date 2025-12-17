@@ -18,3 +18,10 @@ questions = [
     "Якого кольору Ваш зошит?",
     "Який Ваш настрій сьогодні?"
 ]
+
+answers = []
+
+for q in questions:
+    ans = input(q + " ")
+    answers.append(ans)
+
