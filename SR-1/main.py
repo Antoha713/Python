@@ -70,3 +70,11 @@ for num in numbers:
     if 1 <= num <= N:
         print(num)
 
+
+#5
+a = float(input("Введіть перше число: "))
+b = float(input("Введіть друге число: "))
+c = float(input("Введіть третє число: "))
+
+print("Мінімальне число:", min(a, b, c))
+print("Максимальне число:", max(a, b, c))
