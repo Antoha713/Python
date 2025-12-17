@@ -10,3 +10,9 @@ class Person:
     def __del__(self):
         print(f"Ви отримали стипендію {self.name} {self.surname}")
 
+
+p1 = Person("Іван", "Петренко", 5)
+p2 = Person("Олена", "Коваль", 4)
+p3 = Person("Андрій", "Шевченко")  # оцінка за замовчуванням = 1
+
+
