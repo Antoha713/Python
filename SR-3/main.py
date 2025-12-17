@@ -43,3 +43,6 @@ class Manager(Employee):
     def __init__(self, name, salary, worked_days, bonus_percent, subordinates):
         super().__init__(name, salary, worked_days, bonus_percent)
         self._subordinates = subordinates
+
+    def get_subordinates(self):
+        return self._subordinates
